@@ -1,0 +1,158 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btnon:focus{
+    background-color: green;
+}
+.btnoff:focus {
+    background-color:red;
+}
+button{
+    border-radius: 50px 20px;
+   
+    border:2px solid rgb(241, 238, 238) ;
+    width: 10rem;
+    height: 2rem;
+    
+}
+/*  2 Tooltip */
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+ .innercontainer{
+  
+    background-color: aqua;
+    position: relative;
+    width: 25vw;
+ 
+   
+
+}
+.innercontainer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    list-style: none;
+   
+
+}
+.innercontainer ul li{
+    padding: 10px;
+}
+.tooltip{
+    background-color: bisque;
+    height: 8rem;
+    width: 15vw;
+    margin-top: 11rem;
+   
+    position: absolute;
+    display: none;
+}
+ .triangle{
+    
+    width: 1vw;
+    height: 2vh;
+    background-color:bisque;
+    transform: rotate(45deg);
+    margin-top: 6.5rem;
+    margin-left: 2rem;
+   
+    
+   
+   
+   
+
+   
+    
+
+}
+.innercontainer:hover + .tooltip  {
+    display: block;
+   
+}
+
+/* 3 image slider */
+.container2{
+        width: 50%;
+        height: 80px;
+        background-color:rgb(247, 246, 246);
+        margin: 0 auto;
+        display: flex;
+        gap: 25px;
+        overflow-x: scroll;
+      
+        
+
+}
+.container2 h3{
+    white-space: nowrap;
+  
+    
+}
+.container2::-webkit-scrollbar {
+    display: none;
+}
+
+
+.container4{
+background-color: aqua;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+position: relative;
+
+
+
+}
+.sticky img{
+    background-color: rgb(168, 15, 15);
+    min-width: 50%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    
+}
+.content{
+    
+    min-width: 50%;
+    height: 100vh;
+    background-color: rgb(250, 247, 247);
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+.content h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content p{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.content img{
+    width: 10vw;
+    height: 30vh;
+    border-radius:50% ;
+    position: relative;
+    left: 7rem;
+    margin: 6px;
+    
+    
+   
+    
+
+}
